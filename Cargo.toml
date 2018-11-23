@@ -1,0 +1,11 @@
+[package]
+
+name = "protobuf-example"
+version = "0.0.1"
+authors = [ "Dustin Long <me@dustmop.io>" ]
+
+[dependencies]
+protobuf = "2.*.*"
+
+[build-dependencies]
+protoc-rust = "2.0"

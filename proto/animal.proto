@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package valiant;
+
+message Animal {
+  // Kind of animal
+  optional string kind = 1;
+  // Sound that the animal makes
+  optional string sound = 2;
+  // Average weight, in kg
+  optional float weight = 3;
+}
